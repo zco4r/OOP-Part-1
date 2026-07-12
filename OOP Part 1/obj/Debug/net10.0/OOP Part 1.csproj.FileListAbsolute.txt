@@ -1,0 +1,15 @@
+/Users/ammaralazki/RiderProjects/OOP Part 1/OOP Part 1/bin/Debug/net10.0/OOP Part 1
+/Users/ammaralazki/RiderProjects/OOP Part 1/OOP Part 1/bin/Debug/net10.0/OOP Part 1.deps.json
+/Users/ammaralazki/RiderProjects/OOP Part 1/OOP Part 1/bin/Debug/net10.0/OOP Part 1.runtimeconfig.json
+/Users/ammaralazki/RiderProjects/OOP Part 1/OOP Part 1/bin/Debug/net10.0/OOP Part 1.dll
+/Users/ammaralazki/RiderProjects/OOP Part 1/OOP Part 1/bin/Debug/net10.0/OOP Part 1.pdb
+/Users/ammaralazki/RiderProjects/OOP Part 1/OOP Part 1/obj/Debug/net10.0/OOP Part 1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ammaralazki/RiderProjects/OOP Part 1/OOP Part 1/obj/Debug/net10.0/OOP Part 1.AssemblyInfoInputs.cache
+/Users/ammaralazki/RiderProjects/OOP Part 1/OOP Part 1/obj/Debug/net10.0/OOP Part 1.AssemblyInfo.cs
+/Users/ammaralazki/RiderProjects/OOP Part 1/OOP Part 1/obj/Debug/net10.0/OOP Part 1.csproj.CoreCompileInputs.cache
+/Users/ammaralazki/RiderProjects/OOP Part 1/OOP Part 1/obj/Debug/net10.0/OOP Part 1.sourcelink.json
+/Users/ammaralazki/RiderProjects/OOP Part 1/OOP Part 1/obj/Debug/net10.0/OOP Part 1.dll
+/Users/ammaralazki/RiderProjects/OOP Part 1/OOP Part 1/obj/Debug/net10.0/refint/OOP Part 1.dll
+/Users/ammaralazki/RiderProjects/OOP Part 1/OOP Part 1/obj/Debug/net10.0/OOP Part 1.pdb
+/Users/ammaralazki/RiderProjects/OOP Part 1/OOP Part 1/obj/Debug/net10.0/OOP Part 1.genruntimeconfig.cache
+/Users/ammaralazki/RiderProjects/OOP Part 1/OOP Part 1/obj/Debug/net10.0/ref/OOP Part 1.dll
