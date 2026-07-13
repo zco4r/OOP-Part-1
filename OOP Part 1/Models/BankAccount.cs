@@ -14,7 +14,15 @@ public class BankAccount
 
     public void Withdraw(double amount)
     {
-
+        if (Balance >= amount)
+        {
+            Balance -= amount;
+            SendEmail();
+        }
+        else
+        {
+            Console.WriteLine("Insufficient balance");
+        }
     }
 
     public void CheckBalance()
