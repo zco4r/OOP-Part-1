@@ -8,12 +8,13 @@ public class BankAccount
 
     public void Deposit(double amount)
     {
-       
+        Balance += amount;
+        SendEmail();
     }
 
     public void Withdraw(double amount)
     {
-        
+
     }
 
     public void CheckBalance()
