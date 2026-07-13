@@ -10,7 +10,8 @@ public class Student
 
     public void Register(string Email)
     {
-        
+        this.email = Email;
+        SendEmail();
     }
 
     public void SendEmail()
