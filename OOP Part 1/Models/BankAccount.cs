@@ -33,7 +33,7 @@ public class BankAccount
 
     private void PrintInformation()
     {
-        
+        Console.WriteLine($"Account number: {HolderName}");
     }
 
     private void SendEmail()
