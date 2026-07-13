@@ -27,7 +27,8 @@ public class BankAccount
 
     public void CheckBalance()
     {
-        
+        PrintInformation();
+        return;
     }
 
     private void PrintInformation()
