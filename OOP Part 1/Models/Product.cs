@@ -35,7 +35,7 @@ public class Product
 
     private void PrintDetails()
     {
-        
+        Console.WriteLine($"Product Name: {ProductName}");
     }
 
     private void LogTransaction()
