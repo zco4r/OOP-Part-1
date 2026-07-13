@@ -23,7 +23,8 @@ public class Product
 
     public void Restock(int quantity)
     {
-        
+        StockQuantity += quantity;
+        LogTransaction();
     }
 
     public void GetInventoryValue()
