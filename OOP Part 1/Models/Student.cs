@@ -16,7 +16,7 @@ public class Student
 
     public void SendEmail()
     {
-        
+       Console.WriteLine($"Sending email to {email}"); 
     }
     
 }
