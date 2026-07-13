@@ -27,9 +27,10 @@ public class Product
         LogTransaction();
     }
 
-    public void GetInventoryValue()
+    public double GetInventoryValue()
     {
-        
+        PrintDetails();
+        return Price * StockQuantity;
     }
 
     private void PrintDetails()
