@@ -40,6 +40,6 @@ public class Product
 
     private void LogTransaction()
     {
-        
+        Console.WriteLine("The operation was successful.");
     }
 }
