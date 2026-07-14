@@ -375,5 +375,14 @@ public class Program
         double totalValue = product.GetInventoryValue();
         Console.WriteLine("Total inventory value: " + totalValue);
     }
+    
+    static void RegisterStudent()
+    {
+        Student student = ChooseStudent();
+        Console.Write("Enter email: ");
+        string email = Console.ReadLine();
+        student.Register(email);
+        Console.WriteLine(student.Name + " has been registered successfully.");
+    }
 
 }
