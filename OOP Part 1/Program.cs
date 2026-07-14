@@ -605,6 +605,25 @@ public class Program
         Console.WriteLine("Holder Name: " + newAccount.HolderName);
         Console.WriteLine("Balance: " + newAccount.Balance);
     }
+    
+    static void TotalStudentsCounter()
+    {
+        int total = Student.GetTotalStudents();
+        Console.WriteLine("Total students registered in the system: " + total);
+    }
+
+    static void OverdrawnAccountCheck()
+    {
+        BankAccount account = ChooseAccount();
+        if (account.IsOverdrawn)
+        {
+            Console.WriteLine("This account is overdrawn.");
+        }
+        else
+        {
+            Console.WriteLine("This account is not overdrawn.");
+        }
+    }
 
 
     
