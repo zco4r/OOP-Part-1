@@ -588,6 +588,23 @@ public class Program
             Console.WriteLine("No top-up needed - balance is already 50 or above.");
         }
     }
+    
+    static void QuickAccountOpening()
+    {
+        Console.Write("Enter new account number: ");
+        int accountNumber = int.Parse(Console.ReadLine());
+        Console.Write("Enter holder name: ");
+        string holderName = Console.ReadLine();
+        Console.Write("Enter starting balance: ");
+        double balance = double.Parse(Console.ReadLine());
+
+        BankAccount newAccount = new BankAccount(accountNumber, holderName, balance);
+
+        Console.WriteLine("New account created:");
+        Console.WriteLine("Account Number: " + newAccount.AccountNumber);
+        Console.WriteLine("Holder Name: " + newAccount.HolderName);
+        Console.WriteLine("Balance: " + newAccount.Balance);
+    }
 
 
     
