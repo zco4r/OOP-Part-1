@@ -544,6 +544,33 @@ public class Program
             Console.WriteLine("Invalid quantity entered.");
         }
     }
+    
+    static void ScholarshipEligibilityCheck()
+    {
+        Student student = ChooseStudent();
+        BankAccount account = ChooseAccount();
+
+        bool gradeOk = student.Grade >= 80;
+        bool balanceOk = account.Balance >= 100;
+
+        if (gradeOk && balanceOk)
+        {
+            Console.WriteLine("Eligible for Scholarship Bonus.");
+        }
+        else if (!gradeOk && !balanceOk)
+        {
+            Console.WriteLine("Not eligible: grade is below 80 AND balance is below 100.");
+        }
+        else if (!gradeOk)
+        {
+            Console.WriteLine("Not eligible: grade is below 80.");
+        }
+        else
+        {
+            Console.WriteLine("Not eligible: balance is below 100.");
+        }
+    }
+
 
     
 }
