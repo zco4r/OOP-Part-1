@@ -368,5 +368,12 @@ public class Program
             Console.WriteLine("Invalid amount entered.");
         }
     }
+    
+    static void ViewProductDetails()
+    {
+        Product product = ChooseProduct();
+        double totalValue = product.GetInventoryValue();
+        Console.WriteLine("Total inventory value: " + totalValue);
+    }
 
 }
