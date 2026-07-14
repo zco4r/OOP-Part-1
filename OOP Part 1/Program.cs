@@ -570,6 +570,24 @@ public class Program
             Console.WriteLine("Not eligible: balance is below 100.");
         }
     }
+    
+    static void FullBalanceTopUpFlow()
+    {
+        BankAccount account = ChooseAccount();
+
+        if (account.Balance < 50)
+        {
+            double before = account.Balance;
+            double topUp = 100 - account.Balance;
+            account.Deposit(topUp);
+            Console.WriteLine("Balance before top-up: " + before);
+            Console.WriteLine("Balance after top-up: " + account.Balance);
+        }
+        else
+        {
+            Console.WriteLine("No top-up needed - balance is already 50 or above.");
+        }
+    }
 
 
     
