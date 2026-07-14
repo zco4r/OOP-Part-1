@@ -322,10 +322,19 @@ public class Program
 
         }
 
-        //alternative way
             
         BankAccount choosen = ChooseAccount();
         choosen.CheckBalance();
-
     }
+    
+    static void UpdateStudentAddress()
+    {
+        Student student = ChooseStudent();
+
+        Console.Write("Enter new address: ");
+        string newAddress = Console.ReadLine();
+        student.Address = newAddress;
+        Console.WriteLine("Address updated to: " + student.Address);
+    }
+
 }
