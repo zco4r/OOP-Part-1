@@ -299,4 +299,33 @@ public class Program
         }
         return Producut1;
     }
+    
+    static void ViewAccountDetails()
+    {
+        Console.Write("Choose account (1 or 2): ");
+        int input = int.Parse(Console.ReadLine());
+
+        if (input == 1)
+        {
+            double result = account1.CheckBalance();
+            Console.WriteLine("returned balance" + result);
+        }
+        else if (input == 2)
+        {
+            double result = account2.CheckBalance();
+            Console.WriteLine("returned balance" + result);
+        }
+
+        else
+        {
+            Console.WriteLine("Enter valid account number");
+
+        }
+
+        //alternative way
+            
+        BankAccount choosen = ChooseAccount();
+        choosen.CheckBalance();
+
+    }
 }
