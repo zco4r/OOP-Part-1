@@ -624,7 +624,14 @@ public class Program
             Console.WriteLine("This account is not overdrawn.");
         }
     }
-
-
+    
+    static void SetStudentSecurityPin()
+    {
+        Student student = ChooseStudent();
+        Console.Write("Enter a 4-digit PIN: ");
+        string pin = Console.ReadLine();
+        student.SecurityPin = pin;
+        Console.WriteLine("PIN set successfully.");
+    }
     
 }
