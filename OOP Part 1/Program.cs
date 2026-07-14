@@ -497,4 +497,25 @@ public class Program
         Console.WriteLine("Status: " + status);
     }
     
+    static void AccountHealthStatus()
+    {
+        BankAccount account = ChooseAccount();
+        string status;
+
+        if (account.Balance < 50)
+        {
+            status = "Low Balance";
+        }
+        else if (account.Balance <= 1000)
+        {
+            status = "Healthy";
+        }
+        else
+        {
+            status = "Premium";
+        }
+
+        Console.WriteLine("Account status: " + status);
+    }
+    
 }
