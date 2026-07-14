@@ -336,5 +336,21 @@ public class Program
         student.Address = newAddress;
         Console.WriteLine("Address updated to: " + student.Address);
     }
+    
+    static void MakeDeposit()
+    {
+        BankAccount account = ChooseAccount();
+        Console.Write("Enter deposit amount: ");
+        try
+        {
+            double amount = double.Parse(Console.ReadLine());
+            account.Deposit(amount);
+            Console.WriteLine(account.HolderName + "'s updated balance: " + account.Balance);
+        }
+        catch (Exception)
+        {
+            Console.WriteLine("Invalid amount entered.");
+        }
+    }
 
 }
