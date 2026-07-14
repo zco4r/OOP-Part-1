@@ -38,7 +38,7 @@ public class BankAccount
 
     private void SendEmail()
     {
-        Console.WriteLine($"Sending email to {HolderName}");
+        Console.WriteLine("Sending email");
     }
     
     
