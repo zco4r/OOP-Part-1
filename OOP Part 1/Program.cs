@@ -197,60 +197,61 @@ public class Program
             switch (choice)
             {
                 case "1":
-
+                    ChooseAccount();
                     break;
                 case "2":
-
+                    ChooseStudent();
                     break;
                 case "3":
+                    ViewAccountDetails();
                     break;
-
                 case "4":
+                    UpdateStudentAddress();
                     break;
-
                 case "5":
+                    MakeDeposit();
                     break;
-
                 case "6":
+                    MakeWithdrawal();
                     break;
-
                 case "7":
+                    ViewProductDetails();
                     break;
-
                 case "8":
+                    RegisterStudent();
                     break;
-
                 case "9":
+                    CompareAccountBalances();
                     break;
-
                 case "10":
+                    RestockProduct();
                     break;
-
                 case "11":
+                    TransferBetweenAccounts();
                     break;
-
                 case "12":
+                    UpdateStudentGrade();
                     break;
-
                 case "13":
+                    StudentReportCard();
                     break;
-
                 case "14":
+                    AccountHealthStatus();
                     break;
-
                 case "15":
+                    BulkSaleWithRevenue();
                     break;
-
                 case "16":
+                    ScholarshipEligibilityCheck();
                     break;
-
                 case "17":
+                    FullBalanceTopUpFlow();
                     break;
-
                 case "18":
+                    QuickAccountOpening();
                     break;
-
                 case "19":
+                    TotalStudentsCounter();
                     break;
                 case "20":
                     exit = true;
